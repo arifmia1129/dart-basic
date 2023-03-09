@@ -1,5 +1,9 @@
 void main() {
-  for (var i = 1; i <= 10; i++) {
-    print("$i");
+  numberAdd(int firstNum, int SecondNum) {
+    var total = firstNum + SecondNum;
+
+    return total;
   }
+
+  print(numberAdd(10, 20));
 }
